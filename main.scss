@@ -1,0 +1,10 @@
+
+// bootstrap
+@import"./node_modules/bootstrap/scss/functions";
+@import"./Stylesheet/Helper/variables";
+@import"./node_modules/bootstrap/scss/bootstrap.scss";
+
+// CSS
+@import"./Layout/layout";
+@import"./Stylesheet/Pages/teacherhomepage";
+@import"./Stylesheet/Pages/teachereditstudents";

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Students Search Course</title>
+     <link rel="stylesheet" href="../../main.css">
+</head>
+
+
+<body class="d-flex  flex-column justify-content-center align-items-center">
+     <div
+          class="d-flex  flex-column justify-content-center align-items-center border border-dark border-5 p-5">
+          <div class="title">
+               <h1 class="text-center">學生查詢課程</h1>
+          </div>
+          <div class=" d-flex  flex-column justify-content-center align-items-center"
+               style="width: 300px;height: 200px;">
+               
+               <div class="m-3 d-flex  justify-content-between" style="width: 100%;height: 100%;">
+                    <h5 class="mt-2">學號</h5>
+                    <input class="" type="text" id="stuNumber">
+               </div> 
+               <div class="m-3 d-flex  justify-content-between" style="width: 100%;height: 100%;">
+                    <h5 class="mt-2">姓名</h5>
+                    <input class="" type="text" id="stuName">
+               </div>
+               
+
+               <div class="tcs-back d-flex   justify-content-center">
+                    <button class="m-3">查詢</button>
+                    <button class="m-3">
+                         <a href="">退選</a>
+                    </button>
+                    <button class="m-3">
+                         <a href="http://127.0.0.1:5500/index.html"></a> 返回首頁</button>
+               </div>
+          </div>
+          <div id="resCourse"></div>
+
+     </div>
+     
+     <script src="../../JS/students/stu_search.js"></script>
+
+</body>
+
+</html>
